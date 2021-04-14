@@ -1,8 +1,10 @@
 // from data.js
+//binding the data in data.js to the table Data variable
 var tableData = data;
 
 
 //getting reference of table's body
+//Reference index,html - <tbody id="ufo-table-body"></tbody> - (line 64)
 var ufoTable = document.getElementById("ufo-table-body");
 var rows = "";
 
